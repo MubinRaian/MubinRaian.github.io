@@ -3,71 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cover Letter</title>
+    <title>Vishnu Padmanabhan - Fullstack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Home Section -->
-    <section id="home">
-        <div class="intro">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm Mubin Raian Siddiqe, a passionate developer.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="title text-center">
+                    <h1>Vishnu Padmanabhan</h1>
+                    <h3>Fullstack Developer</h3>
+                    <h4><a href="http://neoelemento.com">neoelemento.com</a></h4>
+                    <hr />
+                    <ul class="list-inline">
+                        <li><i class="devicon-laravel-plain colored"></i></li>
+                        <li><i class="devicon-javascript-plain colored"></i></li>
+                        <li><i class="devicon-html5-plain colored"></i></li>
+                        <li><i class="devicon-angularjs-plain colored"></i></li>
+                        <li><i class="devicon-linux-plain"></i></li>
+                    </ul>
+                </div>
+                
+                <div class="summary">
+                    <h2 class="text-center">Summary</h2>
+                    <p>A full stack developer with over 7 years of experience in designing and developing web applications...</p>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <p>Business Analysis</p>
+                            <p>Project Management</p>
+                            <p>WordPress Management</p>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <p>Development</p>
+                            <p>Design</p>
+                            <p>Linux Admin</p>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <p>Agile Development</p>
+                            <p>Scrum of Scrum</p>
+                            <p>Frontend Development</p>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <p>Code Review</p>
+                            <p>Peer Review</p>
+                            <p>Fullstack Development</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="work-experience">
+                    <h2 class="text-center">Work Experience</h2>
+                    <div class="row experience-title">
+                        <div class="col-md-9">
+                            <h3>Some Company</h3>
+                            <h4>Program Manager</h4>
+                            <h5>Some Project</h5>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>June 2015 - Present</h3>
+                        </div>
+                    </div>
+                    <div class="row experience-summary">
+                        <div class="col-md-12">
+                            <p>Lorem ipsum dolor sit amet...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a [developer/designer] with a focus on [specific skills, e.g., front-end development, web design, Python, etc.].</p>
-        <p>With a background in [relevant education or experience], I am constantly learning and improving my skills. I believe in creating beautiful and functional web applications.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-card">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>Description of the project.</p>
-        </div>
-        <div class="project-card">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project 2</h3>
-            <p>Description of the project.</p>
-        </div>
-        <!-- Add more projects as needed -->
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you'd like to get in touch, feel free to reach out through the following channels:</p>
-        <ul>
-            <li>Email: mubinraian52@gmail.com</li>
-            <li>Phone: +8801740068126</li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Mubin Raian Siddiqe</a></li>
-            <!-- Add other contact info or links here -->
-        </ul>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 Mubin Raian Siddiqe. All Rights Reserved.</p>
-    </footer>
-
-
+    </div>
+    
+    <style>
+        body {
+            background: #1B1B25;
+            color: #fff;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        .title {
+            margin-top: 100px;
+            margin-bottom: 10px;
+        }
+        .title a {
+            color: #DB4D57;
+        }
+        .title a:hover {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .title hr {
+            width: 75%;
+        }
+        .summary {
+            padding: 20px;
+        }
+        .summary p {
+            font-size: 1.6rem;
+            letter-spacing: .2rem;
+        }
+        .work-experience {
+            padding: 20px;
+        }
+        .work-experience .experience-title {
+            margin-top: 50px;
+        }
+        .work-experience .experience-summary {
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+        .work-experience p {
+            font-size: 1.6rem;
+            letter-spacing: .2rem;
+        }
+    </style>
 </body>
 </html>
